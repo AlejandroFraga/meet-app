@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingEnd="15dp"
+    android:paddingStart="60dp"
+    android:clipToPadding="false">
+
+    <TextView
+        android:id="@+id/chat_mensaxe_mensaxe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:autoLink="all"
+        android:background="@drawable/my_message"
+        android:elevation="2dp"
+        android:padding="8dp"
+        android:text="Placeholder message"
+        android:textColor="#fff"
+        android:textSize="@dimen/text3" />
+
+    <TextView
+        android:id="@+id/chat_mensaxe_data_creacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chat_mensaxe_mensaxe"
+        android:layout_alignEnd="@+id/chat_mensaxe_mensaxe"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="4dp"
+        android:elevation="2dp"
+        android:text="TextView"
+        android:textSize="@dimen/text4" />
+
+</RelativeLayout>

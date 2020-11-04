@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingEnd="60dp"
+    android:paddingStart="15dp"
+    android:clipToPadding="false">
+
+    <TextView
+        android:id="@+id/chat_mensaxe_mensaxe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:autoLink="all"
+        android:background="@drawable/their_message"
+        android:elevation="2dp"
+        android:padding="8dp"
+        android:text="How are you doing? This is a long message that should probably wrap."
+        android:textSize="@dimen/text3" />
+
+    <TextView
+        android:id="@+id/chat_mensaxe_data_creacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chat_mensaxe_mensaxe"
+        android:layout_alignEnd="@+id/chat_mensaxe_mensaxe"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:elevation="2dp"
+        android:text="TextView"
+        android:textSize="@dimen/text4" />
+
+</RelativeLayout>

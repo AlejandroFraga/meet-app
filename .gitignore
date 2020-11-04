@@ -1,5 +1,5 @@
 # Built application files
-*.apk
+#*.apk # I want the apk to be uploaded so anyone can download it directly
 *.aar
 *.ap_
 *.aab

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1047799541163",
+    "firebase_url": "https://meet-app-6b65e.firebaseio.com",
+    "project_id": "meet-app-6b65e",
+    "storage_bucket": "meet-app-6b65e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047799541163:android:444da76d6374f194",
+        "android_client_info": {
+          "package_name": "com.example.alejandro.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047799541163-3k476bubpjj6r9lphlli9n8na9gh0cni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfGOD4SxWeb9FGCD_-08Uktd_uiAjZpMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

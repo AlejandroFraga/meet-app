@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/login_email_icon"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/icon3"
+        android:layout_marginStart="24dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/login_email_title"
+        app:srcCompat="@drawable/email" />
+
+    <TextView
+        android:id="@+id/login_email_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/hint_email"
+        android:textSize="@dimen/text2"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/login_email_icon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/login_email_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_weight="1"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:text="user1@gmail.com"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/login_email_title"
+        app:layout_constraintTop_toBottomOf="@+id/login_email_title" />
+
+    <ImageView
+        android:id="@+id/login_password_icon"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/icon3"
+        android:layout_marginStart="24dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/login_password_title"
+        app:srcCompat="@drawable/password" />
+
+    <TextView
+        android:id="@+id/login_password_title"
+        android:layout_width="0dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="@dimen/text2"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/hint_password"
+        android:textSize="@dimen/text2"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/login_password_icon"
+        app:layout_constraintTop_toBottomOf="@+id/login_email_field" />
+
+    <EditText
+        android:id="@+id/login_password_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_weight="1"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:text="123456"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/login_password_title"
+        app:layout_constraintTop_toBottomOf="@+id/login_password_title" />
+
+    <Button
+        android:id="@+id/login_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_weight="1"
+        android:text="@string/sign_in"
+        android:textSize="@dimen/text3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password_field" />
+
+</android.support.constraint.ConstraintLayout>

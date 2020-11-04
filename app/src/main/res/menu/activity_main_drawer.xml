@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_log_in"
+            android:icon="@drawable/login"
+            android:title="@string/nav_login"/>
+        <item
+            android:id="@+id/nav_patient_data"
+            android:icon="@drawable/patient"
+            android:title="@string/nav_patient_data" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="@string/nav_feedback" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/calendar"
+            android:title="@string/nav_calendar" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/stat_notify_chat"
+            android:title="@string/nav_chat" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_notifications" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/logout"
+            android:title="@string/nav_logout"/>
+    </group>
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E6BA8</color>
+    <color name="colorPrimaryDark">#224870</color>
+    <color name="colorAccent">#79BEEE</color>
+
+    <color name="colorText">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="background">#CDCDCD</color>
+
+
+    <!-- //FIXME temas de Firebase examples -->
+
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+</resources>

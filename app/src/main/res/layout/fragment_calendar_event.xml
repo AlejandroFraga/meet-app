@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".activities.calendar.CalendarEventActivityFragment"
+    tools:showIn="@layout/activity_calendar_event">
+
+    <ImageView
+        android:id="@+id/calendar_event_event_imaxe"
+        android:layout_width="0dp"
+        android:layout_height="166dp"
+        android:adjustViewBounds="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banner_medical_indemnity" />
+
+    <ImageView
+        android:id="@+id/patient_data_icon"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/icon3"
+        android:layout_marginStart="24dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/patient_data_name"
+        app:srcCompat="@drawable/calendar" />
+
+    <TextView
+        android:id="@+id/patient_data_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="@dimen/text1"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/patient_data_icon"
+        app:layout_constraintTop_toBottomOf="@+id/calendar_event_event_imaxe" />
+
+    <TextView
+        android:id="@+id/calendar_event_event_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        android:textSize="@dimen/text3"
+        app:layout_constraintStart_toStartOf="@+id/patient_data_name"
+        app:layout_constraintTop_toBottomOf="@+id/patient_data_name" />
+
+    <ImageView
+        android:id="@+id/calendar_event_event_ubicacion_icon"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/icon4"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/patient_data_state_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/patient_data_state_title"
+        app:srcCompat="@drawable/location" />
+
+    <TextView
+        android:id="@+id/patient_data_state_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="@dimen/text2"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/calendar_event_event_data"
+        app:layout_constraintTop_toBottomOf="@+id/calendar_event_event_data" />
+
+    <TextView
+        android:id="@+id/patient_data_state_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autoLink="all"
+        android:text="TextView"
+        android:textSize="@dimen/text3"
+        app:layout_constraintStart_toStartOf="@+id/patient_data_state_title"
+        app:layout_constraintTop_toBottomOf="@+id/patient_data_state_title" />
+
+    <ImageView
+        android:id="@+id/calendar_event_event_notificacion_icon"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/icon4"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/calendar_event_event_notificacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/calendar_event_event_notificacion"
+        app:srcCompat="@drawable/ic_notifications_black_24dp" />
+
+    <TextView
+        android:id="@+id/calendar_event_event_notificacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="@dimen/text3"
+        app:layout_constraintStart_toStartOf="@+id/patient_data_state_description"
+        app:layout_constraintTop_toBottomOf="@+id/patient_data_state_description" />
+
+</android.support.constraint.ConstraintLayout>
