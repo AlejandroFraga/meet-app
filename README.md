@@ -1,82 +1,106 @@
-# MEET APP
+# MEET APP - Empowerment of tumor patients during their treatment
 
-Empoderamento dos pacientes de tumores durante o seu tratamento
+Meet app is the Final Degree Project I made for the Computer Engineering Degree by the University of Santiago de Compostela.
 
-## DESCRICIÓN DO ANTEPROXECTO
+The idea was given by the company I was working for by that time [Bahia Software], as the Galician Public Health System was demanding an application to empower patients. The company gave this idea so I could make an initial approach, set the basis and make a first iteration that they could pick up and continue working with.
 
-### Introdución
+In this project, all the learning of new languages and tools (Android Studio and Kotlin) was done independently as we don’t receive any formation about Android in the Degree.
 
-Na detección dun cancro, a velocidade de resposta do proceso médico para a supervivencia do paciente é crucial. O proceso comeza ca sospeita dun médico de que o paciente pode padecer dita enfermidade. Realízanse unha serie de probas ao paciente, e no caso de ser positivas, un comité de expertos reúnese para ditaminar un tratamento. En cada momento do proceso haberá un experto asignado ao paciente o cal encargarase do seu seguimento.
+All the documentation and sample data from the application is in [Galician language](https://en.wikipedia.org/wiki/Galician_language), as the project was done on the Galician University System, aimed towards the Galician Public Health System, as mentioned.
 
-En moitos casos, debido a que os pacientes esquecen as citas que teñen, ou non van preparados para as mesmas (non van xaxuados), os procesos que levan a detección e tratamento dos tumores son atrasados con respecto ás pautas establecidas. Complicando a efectividade dos mesmos.
+The final result was evaluated with a 9’3.
 
-Actualmente séguese unha corrente de empoderamento do paciente. Xa que sendo el a peza central, é vital que dispoña da maior información útil posible sobre a enfermidade e o proceso que se está a levar a cabo.
+## Table of contents
 
-O empoderamento do paciente, consiste en dar ao paciente a capacidade de decidir e ter control sobre a súa vida e o seu tratamento. Isto é a contraposición do sistema anterior, no cal os expertos encargábanse de todo, sen ter en conta ao paciente á hora de tomar decisións.
+- [Description of the project’s draft](#description-of-the-projects-draft)
+  - [Introduction](#introduction)
+  - [Objectives](#objectives)
+  - [Technical description](#technical-description)
+  - [Necessary material resources](#necessary-material-resources)
+  - [Work phases and estimation](#work-phases-and-estimation)
+ - [Final result of the project](#final-result-of-the-project)
 
-No pasado, un médico non daba toda a información a un paciente, tratando tamén de suavizar a visión do doente cara a súa enfermidade. A tendencia actual é a oposta. É a de dar toda a información que poida resultar útil para o paciente. Ben sexa sobre a enfermidade, sobre o seu estado actual, sobre cal é o proceso que seguiu e seguirá para a súa recuperación...Todo isto a través dunha conexión de información constante entre o experto encargado do paciente e este.
+## Description of the project's draft
 
-### Obxectivos
+### Introduction
 
-O obxectivo principal deste proxecto é a creación dunha aplicación móbil nativa do sistema Android, para poder realizar dun xeito sinxelo e satisfactorio o empoderamento do paciente. É dicir, buscarase que o paciente vexa que o feedback que deixa na aplicación, a información que recibe (tanto avisos, como información médica), dean ao paciente un papel totalmente central dentro da súa doenza. Para isto, será necesario cumprir os seguintes subobxectivos:
-1. O paciente poderá visualizar a súa ficha en calquera momento, accedendo a esta información dende o seu terminal móbil a través da aplicación desenvolta.
-2. A aplicación ten que ser unha canle de intercambio de información entre o paciente e o profesional que ten asignado. Para isto, os expertos en todo momento poderán compartir información co paciente sobre a saúde do mesmo, ou información xeral sobre a enfermidade, que eles vexan relevante para o paciente. Tamén disporase dun chat para enviar mensaxes entre o paciente e o experto.
-3. A aplicación mostrará notificacións e alertas ao paciente para mostrar que chegarán dende un sistema centralizado e xa desenvolto dentro da empresa colaboradora.
-4. A aplicación solicitará ao paciente que rexistre feedback sobre o estado de saúde e o seguimento do proceso durante toda a duración do mesmo.
+In cancer detection, the speed of the answer of the medical process for the patient's survival is crucial. The process begins with a doctor's suspicion that the patient may have this disease. A series of tests are made to the patient, and in case of being positives, an expert committee gathers to dictate a treatment. At each moment of the process there will be an expert assigned to the patient who will be in charge of his follow-up.
 
-### Descrición técnica
+In many cases, due to the fact that patients forget their appointments, or are not prepared for them (they are not fasted), the processes that lead to the detection and treatment of tumors are delayed with respect to the established guidelines. Complicating their effectiveness.
 
-Esta aplicación comunicará aos pacientes/coidadores, cos profesionais encargados destes da sanidade para o intercambio de información durante o proceso de tratamento do paciente. A aplicación funcionará de xeito simultáneo cun sistema para xestión de comités de tumores, que será o encargado de xerar as notificacións da aplicación. A aplicación entón será unha ponte de conexión entre o sistema e os usuarios da aplicación, sendo pacientes ou expertos.
+Currently, a trend of patient empowerment is being followed. Since the patient, being the centerpiece, it is vital that they have as much useful information as possible about the disease and the process that is taking place.
+
+Patient empowerment consists of giving the patient the ability to decide and have control over their life and their treatment. This is the opposite of the previous system, in which the experts took care of everything, without taking the patient into account when making decisions.
+
+In the past, a doctor did not give all the information to a patient, also trying to soften the vision of the patient towards his illness. The current trend is the opposite. It is to give all the information that may be useful for the patient. Either about his illness, about his current state, about what is the process that he followed and will continue for his recovery ... All this through a constant connection of information between the expert in charge of the patient and him.
+
+### Objectives
+
+The main objective of this project is the creation of a native mobile application of the Android Operating System, to be able to carry out the empowerment of the patient in a simple and satisfactory way. That is to say, it will be sought for the patient to see that the feedback they leave in the application, the information they receive (both notices and medical information), give the patient a totally central role within their ailment. For this, it will be necessary to meet the following sub-objectives:
+
+1. The patient will be able to view his file at any time, accessing this information from his mobile terminal, through the developed application.
+2. The application must be a channel for the exchange of information between the patient and the professional assigned to him. For this, the experts will be able to share information at all times with the patient about their health, or general information about the disease, which they see as relevant to the patient. There will also be a chat to send messages between the patient and the expert.
+3. The application will show notifications and alerts to the patient that will arrive from a centralized system and already developed within the collaborating company.
+4. The application will ask the patient to record feedback on the health status and monitor the process throughout its duration.
+
+### Technical description
+
+This application will communicate the patient/caregivers, with the professionals in charge of them from the health system, for the exchange of information during the process of treating the patient. The application will work simultaneously with a system for managing tumor committees, which will be in charge of generating the application notifications. The application will then be a connecting bridge between the system and the application users, being patients or experts.
 
 ![App interaction](https://github.com/AlejandroFraga/meet-app/blob/main/images/interaction.png?raw=true)
 
-A fase de análise centrarase na comprensión de como o paciente poderá visualizar a súa ficha, con información resumida enfocada a este. De este modo, o paciente podería acceder a un subconxunto da información relacionada cos seus problemas de saúde, asegurando que dispón de toda a información necesaria.
+The analysis phase will focus on understanding how the patient will be able to visualize their record, with summary information focused on it. In this way, the patient could access a subset of the information related to their health problems, ensuring that he has all the necessary information.
+The information of the patient to be shown will be studied, the information that can be sent by the experts, to look for the most convenient and simple way to represent and send it. It will also review the current operation of the system to which the application will be incorporated so that it is consistent and works properly with the communication interface defined between them. The information to be displayed from patients will be as follows:
+ * Citations.
+ * Preparations required for diagnostic tests.
+ * Guidelines for treatments.
+ * Information about their illness.
 
-Estudarase a información do paciente a mostrar, a información que poderá ser mandada polos expertos, para buscar o xeito máis cómodo e simple de representala e enviala. Tamén revisarase o funcionamento actual do sistema ao cal se incorporará a aplicación para que esta estea en concordancia e funcione correctamente ca interface de comunicación definida entre elas. A información a mostrar dos pacientes será a seguinte:
- * Citacións.
- * Preparativos necesarios para probas diagnósticas.
- * Pautas para tratamentos.
- * Información sobre a súa doenza.
+The different notifications will be studied, which will be focused on showing:
+ * Citation: date, time, place, necessary preparations…
+ * Indications for treatment.
 
-Estudaranse as diferentes notificacións, que estarán enfocadas a mostrar:
- * Citación: data, hora, lugar, preparativos necesarios...
- * Indicacións para o tratamento.
- 
-Estudaremos como realizar as comunicacións do chat entre os pacientes e os expertos. Buscarase como conseguir un feedback útil e simple para os expertos, a través de preguntas concisas e adoptadas actualmente á hora de observar a evolución dun paciente das mesmas características.
+We will study how to conduct chat communications between patients and experts. It will look for how to get useful and simple feedback for experts, through concise and currently adopted questions when observing the evolution of a patient with the same characteristics.
 
-Na fase de deseño, como podemos ver no simple esquema da situación da aplicación no seu entorno, a aplicación pasará a funcionar en conxunto co sistema para xestión dos comités de tumores. O cal, non será parte deste proxecto e xa está actualmente en funcionamento. Este sistema terá unha interface de comunicacións xa definida ca aplicación, tanto para as notificacións, como para o intercambio de información de cada un dos pacientes ou dos profesionais.
+In the design phase, as we can see in the simple diagram of the situation of the application in its environment, the application will work in conjunction with the system for management of tumor committees. Which will not be part of this project and is already in operation. This system will have a communications interface already defined with the application, both for notifications and for the exchange of information of each of the patients or professionals.
 
-Buscaremos que a aplicación resulte atractiva ao seu uso por parte dos pacientes. Cunha funcionalidade e deseño gráfico simples, intuitivos e visuais. Para isto utilizaremos técnicas de gamificación. Estas, mostráronse moi útiles para incrementar a motivación e compromiso dos pacientes no coidado da súa saúde.
+We will find that the application is attractive for use by patients. With a simple, intuitive and visual functionality and graphic design. For this we will use gamification techniques. These have been shown to be very useful in increasing the motivation and commitment of patients in the care of their health.
 
-Deseñaremos como se mostrará a información do paciente. Tamén o funcionamento do chat, que estará controlado pola aplicación, a cal se encargará de transmitir e recibir as mensaxes dos pacientes aos expertos, e viceversa.
+We will design how the patient information will be displayed. Also the operation of the chat, which will be controlled by the application, which will be responsible for transmitting and receiving messages from patients to experts, and vice versa.
 
-Dentro do desenvolvemento, a aplicación crearase utilizando a IDE oficial para Android: Android Studio, e a IDE de programación Netbeans para certas rexións do código Java, máis enfocadas á interacción co sistema ao que se incorporará a aplicación, que á aplicación en si.
+The application will be created using the official IDE for Android: Android Studio.
 
-Utilizaranse as linguaxes de programación:
- * Java: para a maior parte de funcionalidades da aplicación.
- * Kotlin: sendo unha linguaxe oficial open source de Android con total interoperabilidade con Java.
+The programming languages will be used:
+ * Java: for a certain part of the application’s functionalities.
+ * Kotlin: for most part of the application’s functionalities. Being an official open source Android language with full interoperability with Java.
 
-### Medios materiais necesarios.
- * Ordenador persoal
- * Dispositivo móbil Android
- * Android Studio (IDE oficial para Android)
- * Netbeans (IDE)
- * Micosoft Office Word 2016
+### Necessary material resources
+ * Personal computer
+ * Android mobile device
+ * Android Studio (official IDE for Android)
+ * Microsoft Office Word 2016
  * Google Slides
 
-## FASES DO TRABALLO E ESTIMACIÓN TEMPORAL
-Un traballo de fin de grao suporá 401,25 horas de traballo autónomo do alumnado e 11,25 horas de traballo presencial (titorías e avaliación).
-Dedicación semanal prevista (en horas/semana): 27,5
+### Work phases and estimation
 
-|Fase|Estimación temporal (en semanas)|
+A Final Degree Project will be 401,25 hours of autonomous work from the student and 11,25 hours of pressential work (tutorships and evaluation).
+Planned weekly dedication (in hours/week): 27,5
+
+|Phase|Time estimation (in weeks)|
 |---|---|
-|Xestión do proxecto|1|
-|Inicialización|3,5|
-|Deseño|3,5|
-|Desarrollo|6|
-|Probas|2
-|Finalización|1|
+|Project management|1|
+|Initialization|3,5|
+|Design|3,5|
+|Development|6|
+|Testing|2|
+|Closing|1|
 
-(Para a xestión do alcance do proxecto deberase incluír en tódolos casos unha EDT segundo se recolle no PMBOK do PMI. Capítulo 5, Xestión do Alcance do Proxecto)
+(For the management of the scope of the project, a WBS should be included in all cases as it’s on the PMBOK of the PMI. Chapter 5, Project Scope Management)
 
 ![Work Breakdown Structure](https://github.com/AlejandroFraga/meet-app/blob/main/images/wbs.png?raw=true)
+
+## Final result of the project
+
+
+
+[Bahia Software]: <https://bahiasoftware.es/home>
