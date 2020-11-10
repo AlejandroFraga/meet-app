@@ -18,7 +18,6 @@ The final result was evaluated with a 9’3.
   - [Technical description](#technical-description)
   - [Necessary material resources](#necessary-material-resources)
   - [Work phases and estimation](#work-phases-and-estimation)
- - [Final result of the project](#final-result-of-the-project)
 
 ## Description of the project's draft
 
@@ -99,8 +98,7 @@ Planned weekly dedication (in hours/week): 27,5
 
 ![Work Breakdown Structure](https://github.com/AlejandroFraga/meet-app/blob/main/images/wbs.png?raw=true)
 
-## Final result of the project
 
-
+[//]: # (Links)
 
 [Bahia Software]: <https://bahiasoftware.es/home>
